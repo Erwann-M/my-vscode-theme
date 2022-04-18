@@ -474,6 +474,14 @@
         "fontStyle": "italic"
       }
     },
+    {
+      "name": "inherited class",
+      "scope": "meta.class.inheritance.python",
+      "settings": {
+        "foreground": "#ecba63",
+        "fontStyle": "italic"
+      }
+    },
     // SHELL ----------------------------------------
     {
       "scope": "keyword.operator.logical",
