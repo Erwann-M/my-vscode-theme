@@ -391,11 +391,13 @@
     {
       "name": "Python comment block",
       "scope": [
-        "string.quoted.double.block.python"
+        "string.quoted.double.block.python",
+        "string.quoted.docstring.multi.python",
+        "comment"
       ],
       "settings": {
-        "foreground": "#928374",
-        "fontStyle": "italic"
+        "foreground": "#8e8378",
+        "fontStyle": "normal"
       }
     },
     {
@@ -405,7 +407,7 @@
         "entity.name.function.python"
       ],
       "settings": {
-        "foreground": "#8ec07c"
+        "foreground": "#e09731"
       }
     },
     {
@@ -413,10 +415,12 @@
       "scope": [
         "storage.type.function.python",
         "storage.modifier.declaration",
-        "storage.type.class.python"
+        "storage.type.class.python",
+        "support.function.builtin.python"
       ],
       "settings": {
-        "foreground": "#fb4934"
+        "foreground": "#fb4934",
+        "fontStyle": "normal"
       }
     },
     {
@@ -448,7 +452,7 @@
       "name": "Python Function Arguments",
       "scope": "meta.function-call.arguments",
       "settings": {
-        "foreground": "#d5c4a1",
+        "foreground": "#d6aa78",
         "fontStyle": "normal"
       }
     },
@@ -475,11 +479,54 @@
       }
     },
     {
+      "name": "self",
+      "scope": [
+        "variable.language.special.self.python",
+        "variable.parameter.function.language.special.self.python"
+      ],
+      "settings": {
+        "foreground": "#839da5",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "cls",
+      "scope": [
+        "variable.parameter.function.language.special.cls.python",
+        "variable.language.special.cls.python"
+      ],
+      "settings": {
+        "foreground": "#78bea3",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "inherited class",
       "scope": "meta.class.inheritance.python",
       "settings": {
         "foreground": "#ecba63",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "fonction params",
+      "scope": "variable.parameter.function.language.python",
+      "settings": {
+        "foreground": "#8384a5",
+      }
+    },
+    {
+      "name": "keyword operator",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#ffa200",
+      }
+    },
+    {
+      "name": "type",
+      "scope": "support.type.python",
+      "settings": {
+        "fontStyle": "normal"
       }
     },
     // SHELL ----------------------------------------
