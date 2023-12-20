@@ -282,10 +282,19 @@
         "entity.name.class.static.function",
         "entity.name.function",
         "entity.name.class",
-        "entity.name.type"
+        "entity.name.type",
+        "meta.class.js"
       ],
       "settings": {
         "foreground": "#fabd2f"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.inherited-class.js"
+      ],
+      "settings": {
+        "foreground": "#fadb2f"
       }
     },
     {
@@ -338,7 +347,7 @@
         "string.constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#83a598"
+        "foreground": "#5f8db8"
       }
     },
     {
@@ -357,7 +366,7 @@
         "meta.var.expr.js"
       ],
       "settings": {
-        "foreground": "#dbda74"
+        "foreground": "#dbae74"
       }
     },
     {
@@ -365,7 +374,7 @@
         "variable.other.object.js"
       ],
       "settings": {
-        "foreground": "#8eccc9"
+        "foreground": "#a687cc"
       }
     },
     {
