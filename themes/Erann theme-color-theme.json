@@ -886,6 +886,22 @@
         "foreground": "#fe8019"
       }
     },
+    {
+      "scope": [
+        "variable.other.property.js source.js"
+      ],
+      "settings": {
+        "foreground": "#8ec07c"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.object.js source.js"
+      ],
+      "settings": {
+        "foreground": "#8eccc9"
+      }
+    },
     // typescript ---------------------------------------
     {
       "scope": [
