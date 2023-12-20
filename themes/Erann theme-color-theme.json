@@ -342,6 +342,33 @@
       }
     },
     {
+      "scope": [
+        "variable.other.property.js"
+      ],
+      "settings": {
+        "foreground": "#8ec07c"
+      }
+    },
+    {
+      "scope": [
+        "meta.object-literal.key.js",
+        "meta.object.member.js",
+        "meta.objectliteral.js",
+        "meta.var.expr.js"
+      ],
+      "settings": {
+        "foreground": "#dbda74"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.object.js"
+      ],
+      "settings": {
+        "foreground": "#8eccc9"
+      }
+    },
+    {
       "scope": "prototype",
       "settings": {
         "foreground": "#d3869b"

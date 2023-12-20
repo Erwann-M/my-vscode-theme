@@ -2,7 +2,7 @@
     "name": "ept",
     "displayName": "ErwannPersonalTheme",
     "description": "my personal theme",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "publisher": "Erann",
     "repository": "https://github.com/Erwann-M/my-vscode-theme",
     "engines": {
