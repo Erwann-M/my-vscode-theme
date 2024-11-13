@@ -913,6 +913,14 @@
         "fontStyle": "bold"
       }
     },
+    {
+      "scope": [
+        "meta.jsx.children.js.jsx",
+      ],
+      "settings": {
+        "foreground": "#c5b796",
+      }
+    },
     // javascript ---------------------------------------
     {
       "scope": [
@@ -936,6 +944,14 @@
       ],
       "settings": {
         "foreground": "#8eccc9"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.inherited-class.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#e4c86c"
       }
     },
     // typescript ---------------------------------------
